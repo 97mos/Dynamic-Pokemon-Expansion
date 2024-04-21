@@ -69,8 +69,6 @@ enum MegaEvoVariants
 
 #define MB_SHALLOW_WATER 0x17 //For Alolan Raichu
 
-#define MAPSEC_FROST_MOUNTAIN				0x82
-#define MAPSEC_ROUTE_8 						0x6C
-#define MAPSEC_BLIZZARD_CITY				0x5C
-#define MAPSEC_FROZEN_FOREST				0x99
-#define MAPSEC_THUNDERCAP_MOUNTAIN			0x8A
+#define MAPSEC_POWER_PLANT                  0x8E
+#define MAPSEC_SEAFOAM_ISLANDS              0x8B
+#define MAPSEC_ICEFALL_CAVE                 0xB1

@@ -8,7 +8,7 @@ memcpy_ = 0x081E5E78|1;
 memset_ = 0x081E5ED8|1;
 
 gPlayerParty = 0x2024284;
-gPokedexScreenDataPtr = 0x203ACF0;
+gPokedexScreenData = 0x203ACF0;
 gMain = 0x30030F0;
 sEggHatchData = 0x3000E74;
 

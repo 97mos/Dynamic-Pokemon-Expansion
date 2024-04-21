@@ -447,19 +447,19 @@ u16 LoadPokedexViews(u8 type)
 		{
 			if (showUnseenSpecies)
 			{
-				gPokedexScreenDataPtr->listItem[counter].name = (void*) 0x8415F66; //-----
-				gPokedexScreenDataPtr->listItem[counter++].id = species | (0 << 16); //Unseen
+				gPokedexScreenData->listItem[counter].name = (void*) 0x8415F66; //-----
+				gPokedexScreenData->listItem[counter++].id = species | (0 << 16); //Unseen
 			}
 		}
 		else if (caught || showUncaughtSpecies)
 		{
 			lastMeaningfulIndex = counter + 1;
-			gPokedexScreenDataPtr->listItem[counter].name = gSpeciesNames[species];
+			gPokedexScreenData->listItem[counter].name = gSpeciesNames[species];
 			
 			if (caught)
-				gPokedexScreenDataPtr->listItem[counter++].id = species | (3 << 16); //Caught
+				gPokedexScreenData->listItem[counter++].id = species | (3 << 16); //Caught
 			else
-				gPokedexScreenDataPtr->listItem[counter++].id = species | (1 << 16); //Seen
+				gPokedexScreenData->listItem[counter++].id = species | (1 << 16); //Seen
 		}
 	}
 
@@ -467,8 +467,8 @@ u16 LoadPokedexViews(u8 type)
 	{
 		//Fix empty list
 		lastMeaningfulIndex = 1;
-		gPokedexScreenDataPtr->listItem[0].name = (void*) 0x8415F66; //-----
-		gPokedexScreenDataPtr->listItem[0].id = gPokedexOrder_Regional[0] | (0 << 16); //Unseen
+		gPokedexScreenData->listItem[0].name = (void*) 0x8415F66; //-----
+		gPokedexScreenData->listItem[0].id = gPokedexOrder_Regional[0] | (0 << 16); //Unseen
 	}
 
 	return lastMeaningfulIndex;
@@ -487,18 +487,18 @@ static u16 LoadNationalPokedexView(void)
 
 		if (!seen)
 		{
-			gPokedexScreenDataPtr->listItem[listIndex].name = (void*) 0x8415F66; //-----
-			gPokedexScreenDataPtr->listItem[listIndex].id = species | (0 << 16); //Unseen
+			gPokedexScreenData->listItem[listIndex].name = (void*) 0x8415F66; //-----
+			gPokedexScreenData->listItem[listIndex].id = species | (0 << 16); //Unseen
 		}
 		else
 		{
 			lastMeaningfulIndex = i;
-			gPokedexScreenDataPtr->listItem[listIndex].name = gSpeciesNames[species];
+			gPokedexScreenData->listItem[listIndex].name = gSpeciesNames[species];
 			
 			if (caught)
-				gPokedexScreenDataPtr->listItem[listIndex].id = species | (3 << 16); //Caught
+				gPokedexScreenData->listItem[listIndex].id = species | (3 << 16); //Caught
 			else
-				gPokedexScreenDataPtr->listItem[listIndex].id = species | (1 << 16); //Seen
+				gPokedexScreenData->listItem[listIndex].id = species | (1 << 16); //Seen
 		}
 	}
 
