@@ -700,7 +700,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_KEENEYE,
 		.ability2 = ABILITY_SNIPER,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_MERCILESS, //-ABILITY_DRILLBEAK
+		.hiddenAbility = ABILITY_DRILLBEAK, //-ABILITY_MERCILESS
 		.noFlip = TRUE,
 	},
 
@@ -733,7 +733,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_KEENEYE,
 		.ability2 = ABILITY_SNIPER,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_MERCILESS, //-ABILITY_DRILLBEAK
+		.hiddenAbility = ABILITY_DRILLBEAK, //-ABILITY_MERCILESS
 		.noFlip = TRUE,
 	},
 
@@ -6343,7 +6343,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_CHLOROPHYLL,
 		.ability2 = ABILITY_SOLARPOWER,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_GALEWINGS, //-ABILITY_GRASSDASH
+		.hiddenAbility = ABILITY_GRASSDASH, //-ABILITY_GALEWINGS
 		.noFlip = TRUE,
 	},
 
@@ -7231,7 +7231,7 @@ const struct BaseStats gBaseStats[] =
 		.growthRate = GROWTH_MEDIUM_FAST,
 		.eggGroup1 = EGG_GROUP_AMORPHOUS,
 		.eggGroup2 = EGG_GROUP_AMORPHOUS,
-		.ability1 = ABILITY_STORMDRAIN, //-ABILITY_EVAPORATE
+		.ability1 = ABILITY_EVAPORATE, //-ABILITY_STORMDRAIN
 		.ability2 = ABILITY_FLAMEBODY,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_WEAKARMOR,
@@ -11727,7 +11727,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_SHEDSKIN,
 		.ability2 = ABILITY_INFILTRATOR,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_GALEWINGS, //-ABILITY_SLIPPERYTAIL
+		.hiddenAbility = ABILITY_SLIPPERYTAIL, //-ABILITY_GALEWINGS
 		.noFlip = TRUE,
 	},
 
@@ -22319,7 +22319,7 @@ const struct BaseStats gBaseStats[] =
 		.growthRate = GROWTH_SLOW,
 		.eggGroup1 = EGG_GROUP_UNDISCOVERED,
 		.eggGroup2 = EGG_GROUP_UNDISCOVERED,
-		.ability1 = ABILITY_MOLDBREAKER, //-ABILITY_TURBOBLAZE
+		.ability1 = ABILITY_TURBOBLAZE, //-ABILITY_MOLDBREAKER
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_FLASHFIRE,
@@ -22352,7 +22352,7 @@ const struct BaseStats gBaseStats[] =
 		.growthRate = GROWTH_SLOW,
 		.eggGroup1 = EGG_GROUP_UNDISCOVERED,
 		.eggGroup2 = EGG_GROUP_UNDISCOVERED,
-		.ability1 = ABILITY_MOLDBREAKER, //-ABILITY_TERAVOLT
+		.ability1 = ABILITY_TERAVOLT, //-ABILITY_MOLDBREAKER
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_LIGHTNINGROD,
